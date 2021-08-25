@@ -1,0 +1,7 @@
+org\goldstine\config\HelloProperties.class
+org\goldstine\config\HelloServiceAutoConfiguration.class
+org\goldstine\log\MyLog.class
+org\goldstine\service\HelloService.class
+org\goldstine\log\MyLogInterceptor.class
+org\goldstine\config\MyLogAutoConfiguration.class
+META-INF\spring-configuration-metadata.json

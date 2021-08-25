@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "hello",
+      "type": "org.goldstine.config.HelloProperties",
+      "sourceType": "org.goldstine.config.HelloProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "hello.address",
+      "type": "java.lang.String",
+      "sourceType": "org.goldstine.config.HelloProperties"
+    },
+    {
+      "name": "hello.name",
+      "type": "java.lang.String",
+      "sourceType": "org.goldstine.config.HelloProperties"
+    }
+  ],
+  "hints": []
+}

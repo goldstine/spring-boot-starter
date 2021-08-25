@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2e0703bb-0bdb-4c7c-afa9-9095f757ad4f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="D:\Goldstine_workspace\JavaDevelopment\maven_install\maven_install_package\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1xCdM7i38FqxvZwb4ooqmpeUHbZ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RunManager">
+    <configuration name="HelloApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.goldstine.HelloApplication" />
+      <module name="myapp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.goldstine.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e0703bb-0bdb-4c7c-afa9-9095f757ad4f" name="Default Changelist" comment="" />
+      <created>1629862955690</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629862955690</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1342" height="287" key="GridCell.Tab.0.bottom" timestamp="1629872386387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1629872386387" />
+    <state width="1342" height="287" key="GridCell.Tab.0.center" timestamp="1629872386387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="287" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1629872386387" />
+    <state width="1342" height="287" key="GridCell.Tab.0.left" timestamp="1629872386387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="287" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1629872386387" />
+    <state width="1342" height="287" key="GridCell.Tab.0.right" timestamp="1629872386387">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1342" height="287" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1629872386387" />
+    <state x="380" y="381" key="SettingsEditor" timestamp="1629863219031">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="380" y="381" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1629863219031" />
+    <state x="1491" y="452" width="672" height="678" key="search.everywhere.popup" timestamp="1629863424088">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1491" y="452" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1629863424088" />
+  </component>
+</project>

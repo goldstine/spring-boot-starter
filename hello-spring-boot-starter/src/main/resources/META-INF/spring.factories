@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=org.goldstine.config.HelloServiceAutoConfiguration,\
+org.goldstine.config.MyLogAutoConfiguration

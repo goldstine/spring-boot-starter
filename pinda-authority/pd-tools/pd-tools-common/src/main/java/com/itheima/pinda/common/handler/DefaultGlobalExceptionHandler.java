@@ -38,15 +38,21 @@ import static com.itheima.pinda.exception.code.ExceptionCode.METHOD_NOT_ALLOWED;
 import static com.itheima.pinda.exception.code.ExceptionCode.REQUIRED_FILE_PARAM_EX;
 import static com.itheima.pinda.utils.StrPool.EMPTY;
 
+/**
+ * 软件开发过程中不可避免需要各种异常的处理，代码中会出现大量的try{}catch(){}finally{}代码块，不仅有大量的冗余代码，而且还影响代码的可读性
+ * Spring从3.2版本开始增加了一个注解@ControllerAdvice可以与@ExceptionHandler，@InitBinder,@ModelAttribute等注解配套使用，可以统一进行异常处理
+ *
+ */
+
 
 /**
- *
+ *需要自定义的异常直接在这里进行自定义即可
  */
 //@ControllerAdvice(annotations = {RestController.class, Controller.class})
 //@ResponseBody
 @Slf4j
 public abstract class DefaultGlobalExceptionHandler {
-    @ExceptionHandler(BizException.class)
+    @ExceptionHandler(BizException.class)  //业务异常
     public R<String> bizException(BizException ex, HttpServletRequest request) {
         log.warn("BizException:", ex);
         return R.result(ex.getCode(), StrPool.EMPTY, ex.getMessage()).setPath(request.getRequestURI());

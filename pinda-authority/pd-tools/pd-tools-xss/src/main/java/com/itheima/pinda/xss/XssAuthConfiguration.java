@@ -14,6 +14,9 @@ import org.springframework.context.annotation.Bean;
 /**
  * XSS 跨站攻击自动配置
  *
+ * AntiSamy是OWASP的一个开源项目，通过对用户输入的html/css/javascript等内容进行检验和清理，确保输入符合应用规范，AntiSamy被广泛应用于web
+ * 服务对存储型和反射型XSS的防御中
+ *
  */
 public class XssAuthConfiguration {
     /**

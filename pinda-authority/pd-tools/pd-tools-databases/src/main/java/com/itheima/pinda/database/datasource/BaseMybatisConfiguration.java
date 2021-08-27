@@ -50,7 +50,7 @@ public abstract class BaseMybatisConfiguration {
 
 
     /**
-     * Mybatis Plus 注入器
+     * Mybatis Plus 注入器      多所有表的公共字段进行处理
      *
      * @param idGenerate
      * @return

@@ -11,7 +11,7 @@ import org.springframework.web.filter.CorsFilter;
 @Configuration
 public class ZuulConfiguration extends BaseConfig {
     @Bean
-    public CorsFilter corsFilter() {
+    public CorsFilter corsFilter() {//配置一个过滤器实现跨域解决
         final UrlBasedCorsConfigurationSource source =
                 new UrlBasedCorsConfigurationSource();
         final org.springframework.web.cors.CorsConfiguration config =

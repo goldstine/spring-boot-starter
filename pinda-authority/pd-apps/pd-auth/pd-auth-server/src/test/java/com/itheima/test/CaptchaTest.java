@@ -6,6 +6,12 @@ import com.wf.captcha.base.Captcha;
 import java.io.File;
 import java.io.FileOutputStream;
 
+/**
+ * easy-captcha是生成图形验证码的java类库，支持gif,中文，算术等类型，可以用于javaweb/javase等项目，
+ * 参考地址：https://gitee.com/whvse/EasyCaptcha
+ * 对应的maven坐标为easy-captcha
+ */
+
 public class CaptchaTest {
     public static void main(String[] args) throws Exception{
         //中文验证码

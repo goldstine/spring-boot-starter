@@ -12,6 +12,9 @@ import org.springframework.stereotype.Repository;
  * 资源
  * </p>
  *
+ * 如果涉及到数据库的多张表联合查询，所以应该编写对应的自定义查询映射文件mapper.xml文件
+ *
+ *
  */
 @Repository
 public interface ResourceMapper extends BaseMapper<Resource> {

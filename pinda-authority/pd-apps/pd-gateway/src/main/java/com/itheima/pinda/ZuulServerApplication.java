@@ -7,6 +7,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+/**
+ * 网关服务不需要生成对应的jwt token，之需要对应的解析，所以之需要对应的公钥即可，所以只需要对应pub.key===》pri.key
+ *
+ */
+
+
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients({"com.itheima.pinda"})

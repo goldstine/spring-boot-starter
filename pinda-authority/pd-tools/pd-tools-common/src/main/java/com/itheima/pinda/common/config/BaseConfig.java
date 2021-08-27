@@ -188,7 +188,7 @@ public abstract class BaseConfig {
         return new SpringUtils();
     }
 
-
+    //使用undertow服务器的性能比tomcat web服务器的性能更高
     @Bean
     @ConditionalOnClass(Undertow.class)
     public UndertowServerFactoryCustomizer getUndertowServerFactoryCustomizer() {

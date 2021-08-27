@@ -11,11 +11,11 @@ import com.github.dozermapper.core.Mapper;
 
 /**
  * DozerUtils 工具类
- *
+ *将Dozer-spring-boot-starter提供的对象Mapper对象封装成DozerUtils类对象
  */
 public class DozerUtils {
     private Mapper mapper;
-
+    //通过构造函数将mapper对象注入DozerUtils类中
     public DozerUtils(Mapper mapper) {
         this.mapper = mapper;
     }

@@ -44,7 +44,7 @@ public class SwaggerProperties {
     /**
      * 标题
      **/
-    private String title = "在线文档";
+    private String title = "在线文档,还有谁 刘磊";
     private String group = "";
     /**
      * 描述

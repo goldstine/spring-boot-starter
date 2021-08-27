@@ -18,7 +18,8 @@ public abstract class BaseFilter extends ZuulFilter{
     //判断当前请求uri是否需要忽略（直接放行）
     protected boolean isIgnoreToken(){
         //动态获取当前请求的uri
-        HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
+        //使用zuul网关提供的重要的上下文对象RequestContext
+        HttpServletRequest request = RequestContext.getCurrentContext().getRequest();//所有的请求对应的都是/api/file/user/list
         String uri = request.getRequestURI();
         uri = StrUtil.subSuf(uri,zuulPrefix.length());
         uri = StrUtil.subSuf(uri,uri.indexOf("/",1));
@@ -28,6 +29,7 @@ public abstract class BaseFilter extends ZuulFilter{
 
     //网关抛异常，不再进行路由，而是直接返回到前端
     protected void errorResponse(String errMsg,int errCode,int httpStatusCode){
+        //使用zuul网关提供的重要的上下文对象RequestContext
         RequestContext ctx = RequestContext.getCurrentContext();
         //设置响应状态码
         ctx.setResponseStatusCode(httpStatusCode);
